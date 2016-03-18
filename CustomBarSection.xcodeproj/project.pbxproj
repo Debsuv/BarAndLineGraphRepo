@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		669721721A7F329000E816BE /* BarContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 669721711A7F329000E816BE /* BarContainer.m */; };
+		669965361A7B7DD400D7D682 /* PopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 669965351A7B7DD400D7D682 /* PopView.m */; };
+		669A0FEE1A774A1400C98AC0 /* UnitView.m in Sources */ = {isa = PBXBuildFile; fileRef = 669A0FED1A774A1400C98AC0 /* UnitView.m */; };
+		669A0FF11A77710B00C98AC0 /* HostView.m in Sources */ = {isa = PBXBuildFile; fileRef = 669A0FF01A77710B00C98AC0 /* HostView.m */; };
+		669CFDF61A70BA5A00CE9FAE /* 2014_sales_data.json in Resources */ = {isa = PBXBuildFile; fileRef = 669CFDF51A70BA5A00CE9FAE /* 2014_sales_data.json */; };
+		669CFDF81A70BAAA00CE9FAE /* 2013_sales_data.json in Resources */ = {isa = PBXBuildFile; fileRef = 669CFDF71A70BAA900CE9FAE /* 2013_sales_data.json */; };
+		669CFDFA1A70BAF600CE9FAE /* 2012_sales_data.json in Resources */ = {isa = PBXBuildFile; fileRef = 669CFDF91A70BAF600CE9FAE /* 2012_sales_data.json */; };
+		669CFDFD1A70BD8D00CE9FAE /* DropMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 669CFDFC1A70BD8D00CE9FAE /* DropMenu.m */; };
+		669CFE011A70DD3300CE9FAE /* GraphScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 669CFE001A70DD3300CE9FAE /* GraphScrollView.m */; };
+		669D9AE41A6F5B8D00C5629A /* UIView+Customize.m in Sources */ = {isa = PBXBuildFile; fileRef = 669D9AE31A6F5B8D00C5629A /* UIView+Customize.m */; };
+		669D9AEB1A6F674700C5629A /* HeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 669D9AEA1A6F674700C5629A /* HeaderView.m */; };
 		66A3A7AA1A6E66E7005C008B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A3A7A91A6E66E7005C008B /* main.m */; };
 		66A3A7AD1A6E66E7005C008B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A3A7AC1A6E66E7005C008B /* AppDelegate.m */; };
 		66A3A7B01A6E66E7005C008B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A3A7AF1A6E66E7005C008B /* ViewController.m */; };
@@ -14,6 +25,7 @@
 		66A3A7B51A6E66E7005C008B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66A3A7B41A6E66E7005C008B /* Images.xcassets */; };
 		66A3A7B81A6E66E7005C008B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66A3A7B61A6E66E7005C008B /* LaunchScreen.xib */; };
 		66A3A7C41A6E66E7005C008B /* CustomBarSectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A3A7C31A6E66E7005C008B /* CustomBarSectionTests.m */; };
+		66A3A7CF1A6E66FF005C008B /* CustomBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A3A7CE1A6E66FF005C008B /* CustomBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +39,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		669721701A7F329000E816BE /* BarContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarContainer.h; sourceTree = "<group>"; };
+		669721711A7F329000E816BE /* BarContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarContainer.m; sourceTree = "<group>"; };
+		669965341A7B7DD400D7D682 /* PopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopView.h; sourceTree = "<group>"; };
+		669965351A7B7DD400D7D682 /* PopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopView.m; sourceTree = "<group>"; };
+		669A0FEC1A774A1400C98AC0 /* UnitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnitView.h; sourceTree = "<group>"; };
+		669A0FED1A774A1400C98AC0 /* UnitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnitView.m; sourceTree = "<group>"; };
+		669A0FEF1A77710B00C98AC0 /* HostView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HostView.h; sourceTree = "<group>"; };
+		669A0FF01A77710B00C98AC0 /* HostView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HostView.m; sourceTree = "<group>"; };
+		669CFDF51A70BA5A00CE9FAE /* 2014_sales_data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 2014_sales_data.json; sourceTree = "<group>"; };
+		669CFDF71A70BAA900CE9FAE /* 2013_sales_data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 2013_sales_data.json; sourceTree = "<group>"; };
+		669CFDF91A70BAF600CE9FAE /* 2012_sales_data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 2012_sales_data.json; sourceTree = "<group>"; };
+		669CFDFB1A70BD8D00CE9FAE /* DropMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropMenu.h; sourceTree = "<group>"; };
+		669CFDFC1A70BD8D00CE9FAE /* DropMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropMenu.m; sourceTree = "<group>"; };
+		669CFDFF1A70DD3300CE9FAE /* GraphScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphScrollView.h; sourceTree = "<group>"; };
+		669CFE001A70DD3300CE9FAE /* GraphScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphScrollView.m; sourceTree = "<group>"; };
+		669D9AE21A6F5B8D00C5629A /* UIView+Customize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Customize.h"; sourceTree = "<group>"; };
+		669D9AE31A6F5B8D00C5629A /* UIView+Customize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Customize.m"; sourceTree = "<group>"; };
+		669D9AE81A6F655A00C5629A /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		669D9AE91A6F674700C5629A /* HeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderView.h; sourceTree = "<group>"; };
+		669D9AEA1A6F674700C5629A /* HeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderView.m; sourceTree = "<group>"; };
 		66A3A7A41A6E66E6005C008B /* CustomBarSection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomBarSection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66A3A7A81A6E66E7005C008B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		66A3A7A91A6E66E7005C008B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +72,9 @@
 		66A3A7BD1A6E66E7005C008B /* CustomBarSectionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomBarSectionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		66A3A7C21A6E66E7005C008B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		66A3A7C31A6E66E7005C008B /* CustomBarSectionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomBarSectionTests.m; sourceTree = "<group>"; };
+		66A3A7CD1A6E66FF005C008B /* CustomBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomBar.h; sourceTree = "<group>"; };
+		66A3A7CE1A6E66FF005C008B /* CustomBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomBar.m; sourceTree = "<group>"; };
+		66A3A7D11A6E686D005C008B /* CustomBarSection-prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CustomBarSection-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +95,93 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		669721731A7F329900E816BE /* Custom Bar */ = {
+			isa = PBXGroup;
+			children = (
+				66A3A7CD1A6E66FF005C008B /* CustomBar.h */,
+				66A3A7CE1A6E66FF005C008B /* CustomBar.m */,
+				669721741A7F32A500E816BE /* Header View */,
+			);
+			name = "Custom Bar";
+			sourceTree = "<group>";
+		};
+		669721741A7F32A500E816BE /* Header View */ = {
+			isa = PBXGroup;
+			children = (
+				669D9AE91A6F674700C5629A /* HeaderView.h */,
+				669D9AEA1A6F674700C5629A /* HeaderView.m */,
+			);
+			name = "Header View";
+			sourceTree = "<group>";
+		};
+		6697B1231A81E4280030DF19 /* Menu Controller Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Menu Controller Category";
+			sourceTree = "<group>";
+		};
+		669965371A7B7DDA00D7D682 /* PopView */ = {
+			isa = PBXGroup;
+			children = (
+				669965341A7B7DD400D7D682 /* PopView.h */,
+				669965351A7B7DD400D7D682 /* PopView.m */,
+			);
+			name = PopView;
+			sourceTree = "<group>";
+		};
+		669965381A7B84F700D7D682 /* UIVIew Categories */ = {
+			isa = PBXGroup;
+			children = (
+				669D9AE21A6F5B8D00C5629A /* UIView+Customize.h */,
+				669D9AE31A6F5B8D00C5629A /* UIView+Customize.m */,
+			);
+			name = "UIVIew Categories";
+			sourceTree = "<group>";
+		};
+		669A0FF21A77710F00C98AC0 /* HostView */ = {
+			isa = PBXGroup;
+			children = (
+				669A0FEF1A77710B00C98AC0 /* HostView.h */,
+				669A0FF01A77710B00C98AC0 /* HostView.m */,
+				66A3A7D01A6E6706005C008B /* Bar Section */,
+				669CFE021A70DD3700CE9FAE /* GraphScroll */,
+				669965371A7B7DDA00D7D682 /* PopView */,
+				669965381A7B84F700D7D682 /* UIVIew Categories */,
+				669D9AE81A6F655A00C5629A /* Constants.h */,
+			);
+			name = HostView;
+			sourceTree = "<group>";
+		};
+		669A0FF31A7773DC00C98AC0 /* Axis Unit View */ = {
+			isa = PBXGroup;
+			children = (
+				669A0FEC1A774A1400C98AC0 /* UnitView.h */,
+				669A0FED1A774A1400C98AC0 /* UnitView.m */,
+			);
+			name = "Axis Unit View";
+			sourceTree = "<group>";
+		};
+		669CFDFE1A70BD9000CE9FAE /* Menu Section */ = {
+			isa = PBXGroup;
+			children = (
+				669CFDFB1A70BD8D00CE9FAE /* DropMenu.h */,
+				669CFDFC1A70BD8D00CE9FAE /* DropMenu.m */,
+			);
+			name = "Menu Section";
+			sourceTree = "<group>";
+		};
+		669CFE021A70DD3700CE9FAE /* GraphScroll */ = {
+			isa = PBXGroup;
+			children = (
+				6697B1231A81E4280030DF19 /* Menu Controller Category */,
+				669CFDFF1A70DD3300CE9FAE /* GraphScrollView.h */,
+				669CFE001A70DD3300CE9FAE /* GraphScrollView.m */,
+				669A0FF31A7773DC00C98AC0 /* Axis Unit View */,
+			);
+			name = GraphScroll;
+			sourceTree = "<group>";
+		};
 		66A3A79B1A6E66E6005C008B = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +203,10 @@
 		66A3A7A61A6E66E6005C008B /* CustomBarSection */ = {
 			isa = PBXGroup;
 			children = (
+				669A0FF21A77710F00C98AC0 /* HostView */,
+				669CFDF91A70BAF600CE9FAE /* 2012_sales_data.json */,
+				669CFDF71A70BAA900CE9FAE /* 2013_sales_data.json */,
+				669CFDF51A70BA5A00CE9FAE /* 2014_sales_data.json */,
 				66A3A7AB1A6E66E7005C008B /* AppDelegate.h */,
 				66A3A7AC1A6E66E7005C008B /* AppDelegate.m */,
 				66A3A7AE1A6E66E7005C008B /* ViewController.h */,
@@ -89,6 +215,8 @@
 				66A3A7B41A6E66E7005C008B /* Images.xcassets */,
 				66A3A7B61A6E66E7005C008B /* LaunchScreen.xib */,
 				66A3A7A71A6E66E6005C008B /* Supporting Files */,
+				66A3A7D11A6E686D005C008B /* CustomBarSection-prefix.pch */,
+				669CFDFE1A70BD9000CE9FAE /* Menu Section */,
 			);
 			path = CustomBarSection;
 			sourceTree = "<group>";
@@ -117,6 +245,16 @@
 				66A3A7C21A6E66E7005C008B /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		66A3A7D01A6E6706005C008B /* Bar Section */ = {
+			isa = PBXGroup;
+			children = (
+				669721701A7F329000E816BE /* BarContainer.h */,
+				669721711A7F329000E816BE /* BarContainer.m */,
+				669721731A7F329900E816BE /* Custom Bar */,
+			);
+			name = "Bar Section";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,10 +302,11 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0610;
-				ORGANIZATIONNAME = RandemIT;
+				ORGANIZATIONNAME = "";
 				TargetAttributes = {
 					66A3A7A31A6E66E6005C008B = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = S92LD7Q2BU;
 					};
 					66A3A7BC1A6E66E7005C008B = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -202,6 +341,9 @@
 				66A3A7B31A6E66E7005C008B /* Main.storyboard in Resources */,
 				66A3A7B81A6E66E7005C008B /* LaunchScreen.xib in Resources */,
 				66A3A7B51A6E66E7005C008B /* Images.xcassets in Resources */,
+				669CFDFA1A70BAF600CE9FAE /* 2012_sales_data.json in Resources */,
+				669CFDF61A70BA5A00CE9FAE /* 2014_sales_data.json in Resources */,
+				669CFDF81A70BAAA00CE9FAE /* 2013_sales_data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +361,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				669CFDFD1A70BD8D00CE9FAE /* DropMenu.m in Sources */,
+				669CFE011A70DD3300CE9FAE /* GraphScrollView.m in Sources */,
 				66A3A7B01A6E66E7005C008B /* ViewController.m in Sources */,
+				669D9AEB1A6F674700C5629A /* HeaderView.m in Sources */,
 				66A3A7AD1A6E66E7005C008B /* AppDelegate.m in Sources */,
+				66A3A7CF1A6E66FF005C008B /* CustomBar.m in Sources */,
+				669A0FF11A77710B00C98AC0 /* HostView.m in Sources */,
 				66A3A7AA1A6E66E7005C008B /* main.m in Sources */,
+				669D9AE41A6F5B8D00C5629A /* UIView+Customize.m in Sources */,
+				669721721A7F329000E816BE /* BarContainer.m in Sources */,
+				669A0FEE1A774A1400C98AC0 /* UnitView.m in Sources */,
+				669965361A7B7DD400D7D682 /* PopView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,9 +494,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREFIX_HEADER = "CustomBarSection/CustomBarSection-Prefix.pch";
 				INFOPLIST_FILE = CustomBarSection/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -353,9 +507,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREFIX_HEADER = "CustomBarSection/CustomBarSection-Prefix.pch";
 				INFOPLIST_FILE = CustomBarSection/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
@@ -412,6 +569,7 @@
 				66A3A7C91A6E66E7005C008B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		66A3A7CA1A6E66E7005C008B /* Build configuration list for PBXNativeTarget "CustomBarSectionTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +578,7 @@
 				66A3A7CC1A6E66E7005C008B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
